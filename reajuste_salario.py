@@ -1,7 +1,7 @@
 # Programa para calcular reajuste salarial
 
 # ENTRADA
-salario = float(input("Digite o salário atual (R$): "))
+salario = float(input("Digite o salário (R$): "))
 
 # PROCESSAMENTO
 if salario <= 1000:
@@ -17,7 +17,7 @@ aumento = salario * percentual
 novo_salario = salario + aumento
 
 # SAÍDA
-print(f"Salário atual: R$ {salario:.2f}")
-print(f"Percentual de aumento: {percentual*100:.0f}%")
+print(f"Salário digitado: R$ {salario:.2f}")
+print(f"Aumento         : {percentual*100:.0f}%")
 print(f"Valor do aumento: R$ {aumento:.2f}")
-print(f"Novo salário: R$ {novo_salario:.2f}")
+print(f"Novo salário    : R$ {novo_salario:.2f}")
